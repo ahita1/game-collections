@@ -1,7 +1,7 @@
 import useData from "./useData"
 import { Platform } from "./useGames"
 
-interface Platforms{
+export interface Platforms{
     id : number
     name : string
     slug : string
