@@ -15,7 +15,6 @@ interface Props {
     selectedPlatform: Platforms | null
 }
 const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
-
     const { data, error } = usePlatforms()
     if (error) return null
     return (
@@ -28,9 +27,8 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
                         {platform.name}
                     </MenuItem>)}
             </MenuList>
-        </Menu>
+        </Menu>   
     )
-
 }
 
 export default PlatformSelector
