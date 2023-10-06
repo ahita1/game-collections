@@ -8,7 +8,7 @@ import PlatformSelector from './components/PlatformSelector'
 import { Platforms } from './hooks/usePlatforms'
 import SortSelector from './components/SortSelector'
 import { Platform } from './hooks/useGames'
-import { IconName } from "react-icons/bs";
+// import { IconName } from "react-icons/bs";
 
 export interface GameQuery{
   genre: Genres | null
