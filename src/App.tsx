@@ -47,7 +47,7 @@ const [gameQuery , setGameQuery] = useState<GameQuery>({} as GameQuery)
           <GameGrid gameQuery={gameQuery}/>
           </GridItem>
       </Grid>
-    </>
+  </>
   )
 }
 
